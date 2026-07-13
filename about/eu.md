@@ -1,12 +1,12 @@
 ---
 layout: stage
-title: Hobbies
-permalink: /about/hobbies/
+title: "Eu ☝️"
+permalink: /about/eu/
 image: /assets/images/placeholder.svg
 ---
 
-*(Este é um texto de exemplo — apague e escreva o seu. Ideias do que contar aqui:
-o que você gosta de fazer no tempo livre, desde quando, como começou.)*
+*(Texto de exemplo — apague e escreva o seu. Ideias: quem você é, o que
+gosta de fazer, um pouco da sua personalidade.)*
 
 Você pode usar **negrito**, _itálico_ e listas normalmente:
 

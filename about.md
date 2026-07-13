@@ -9,20 +9,16 @@ Escreva aqui uma breve introdução sobre você. Depois, clique nos cartões
 abaixo para conhecer diferentes aspectos da sua vida.
 
 <div class="stage-grid">
-  <a class="stage-card" href="{{ '/about/hobbies/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Hobbies">
-    <span>Hobbies</span>
+  <a class="stage-card" href="{{ '/about/eu/' | relative_url }}">
+    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Eu">
+    <span>Eu ☝️</span>
   </a>
-  <a class="stage-card" href="{{ '/about/estudos/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Estudos">
-    <span>Estudos</span>
+  <a class="stage-card" href="{{ '/about/boi-soberano/' | relative_url }}">
+    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Boi Soberano">
+    <span>Boi Soberano 🐂</span>
   </a>
-  <a class="stage-card" href="{{ '/about/pensamentos/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Pensamentos">
-    <span>Pensamentos</span>
-  </a>
-  <a class="stage-card" href="{{ '/about/cinema/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Cinema">
-    <span>Cinema</span>
+  <a class="stage-card" href="{{ '/about/flamengo/' | relative_url }}">
+    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Flamengo">
+    <span>Flamengo 🔴⚫</span>
   </a>
 </div>
