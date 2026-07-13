@@ -1,0 +1,18 @@
+title: Meu Blog
+description: >-
+  Um espaço para compartilhar ideias, anotações e projetos.
+author: Kayo Antoniazzi
+theme: minima
+minima:
+  skin: classic
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Menu de navegação (aparece no topo do site)
+header_pages:
+  - about.md
+
+# Não precisa mexer aqui embaixo
+permalink: /:year/:month/:day/:title/
