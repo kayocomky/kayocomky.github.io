@@ -7,9 +7,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Menu de navegação (aparece no topo do site)
+# Menu de navegação (aparece no topo do site, nesta ordem)
 header_pages:
   - about.md
+  - playlist.md
 
 # Não precisa mexer aqui embaixo
 permalink: /:year/:month/:day/:title/

@@ -2,7 +2,7 @@
 layout: post
 title:  "Meu primeiro post"
 date:   2026-07-13 12:00:00 -0300
-categories: geral
+categories: [Geral]
 ---
 
 Este é o primeiro post do blog! 🎉

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="playlist-page">
+  <h1>{{ page.title }}</h1>
+  <div class="page-content">{{ content }}</div>
+
+  {% assign category_names = site.categories | sort %}
+
+  {% if category_names.size == 0 %}
+    <p class="empty">
+      Nenhuma categoria ainda. Adicione <code>categories: [Nome]</code> no
+      cabeçalho de um post em <code>_posts/</code> para ela aparecer aqui.
+    </p>
+  {% else %}
+    <nav class="playlist-toc">
+      {% for category in category_names %}
+        <a href="#{{ category[0] | slugify: 'latin' }}">{{ category[0] }}</a>
+      {% endfor %}
+    </nav>
+
+    {% for category in category_names %}
+      <section class="playlist-section" id="{{ category[0] | slugify: 'latin' }}">
+        <h2>{{ category[0] }}</h2>
+        <ul class="post-list">
+          {% for post in category[1] %}
+            <li class="post-card">
+              <a href="{{ post.url | relative_url }}">
+                <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+                <h3 class="post-title">{{ post.title }}</h3>
+                {% include post-tags.html post=post %}
+                {% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  {% endif %}
+</article>

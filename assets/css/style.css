@@ -289,6 +289,54 @@ main.wrapper {
   border-radius: 8px;
 }
 
+/* Selinho de categoria */
+.post-tags {
+  margin: 0.35rem 0 0.5rem;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.post-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+/* Página Playlist */
+.playlist-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.75rem 0 2.5rem;
+}
+.playlist-toc a {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+.playlist-toc a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.playlist-section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 5rem;
+}
+.playlist-section h2 {
+  margin-bottom: 1rem;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);

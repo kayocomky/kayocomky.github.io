@@ -12,6 +12,7 @@ layout: default
     <a href="{{ post.url | relative_url }}">
       <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
       <h2 class="post-title">{{ post.title }}</h2>
+      {% include post-tags.html post=post %}
       {% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>{% endif %}
     </a>
   </li>
