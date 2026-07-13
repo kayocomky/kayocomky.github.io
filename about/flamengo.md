@@ -2,7 +2,7 @@
 layout: stage
 title: "Flamengo 🔴⚫"
 permalink: /about/flamengo/
-image: /assets/images/placeholder.svg
+image: /assets/images/flamengo.jpg
 ---
 
 *(Texto de exemplo — apague e escreva o seu. Ideias: desde quando torce,

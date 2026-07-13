@@ -5,8 +5,7 @@ heading: Um pouco sobre mim
 permalink: /about/
 ---
 
-Escreva aqui uma breve introdução sobre você. Depois, clique nos cartões
-abaixo para conhecer diferentes aspectos da sua vida.
+Bom, acho que esses 3 tópicos aqui definem bem minha vida... tmj
 
 <div class="stage-grid">
   <a class="stage-card" href="{{ '/about/eu/' | relative_url }}">
@@ -14,11 +13,11 @@ abaixo para conhecer diferentes aspectos da sua vida.
     <span>Eu ☝️</span>
   </a>
   <a class="stage-card" href="{{ '/about/boi-soberano/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Boi Soberano">
+    <img src="{{ '/assets/images/boi.png' | relative_url }}" alt="Boi Soberano">
     <span>Boi Soberano 🐂</span>
   </a>
   <a class="stage-card" href="{{ '/about/flamengo/' | relative_url }}">
-    <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="Flamengo">
+    <img src="{{ '/assets/images/flamengo.jpg' | relative_url }}" alt="Flamengo">
     <span>Flamengo 🔴⚫</span>
   </a>
 </div>

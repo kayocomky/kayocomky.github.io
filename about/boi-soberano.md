@@ -2,7 +2,7 @@
 layout: stage
 title: "Boi Soberano 🐂"
 permalink: /about/boi-soberano/
-image: /assets/images/placeholder.svg
+image: /assets/images/boi.png
 ---
 
 *(Texto de exemplo — apague e escreva o seu. Conte o que é "Boi Soberano"
