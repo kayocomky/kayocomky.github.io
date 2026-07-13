@@ -2,9 +2,6 @@ title: Meu Blog
 description: >-
   Um espaço para compartilhar ideias, anotações e projetos.
 author: Kayo Antoniazzi
-theme: minima
-minima:
-  skin: classic
 
 markdown: kramdown
 plugins:
