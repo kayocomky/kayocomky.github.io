@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#151822"/>
+  <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#262b38"/>
+  <text x="50%" y="50%" fill="#9aa1ac" font-family="sans-serif" font-size="18" text-anchor="middle" dominant-baseline="middle">Imagem em breve</text>
+</svg>
